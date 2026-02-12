@@ -1,0 +1,79 @@
+{
+  "header": {
+    "title": "Juuksur Salong",
+    "home": "Kodu",
+    "booking": "Broneerimine",
+    "myBookings": "Minu Broneeringud",
+    "admin": "Admin",
+    "login": "Sisenemine",
+    "logout": "Väljalogimine",
+    "register": "Registreerimine"
+  },
+  "landing": {
+    "welcome": "Tere tulemast meie juuksuri salongi broneerimissüsteemi",
+    "description": "Broneerige oma koht lihtsalt ja kiiresti",
+    "bookNow": "Broneeri kohe",
+    "services": "Meie teenused"
+  },
+  "booking": {
+    "selectService": "Valige teenus",
+    "selectStaff": "Valige spetsialist",
+    "selectDate": "Valige kuupäev",
+    "selectTime": "Valige aeg",
+    "confirm": "Kinnita broneering",
+    "guestBooking": "Külalise broneerimine",
+    "loginToBook": "Logige sisse broneerimiseks",
+    "firstName": "Eesnimi",
+    "lastName": "Perekonnanimi",
+    "email": "E-post",
+    "phone": "Telefoninumber",
+    "duration": "Kestus",
+    "price": "Hind",
+    "minutes": "minutit",
+    "eur": "€",
+    "bookingSuccess": "Broneering kinnitati edukalt!",
+    "bookingError": "Viga broneerimise ajal. Proovige uuesti.",
+    "selectValidTime": "Palun valige kehtiv aeg"
+  },
+  "auth": {
+    "email": "E-post",
+    "password": "Parool",
+    "confirmPassword": "Kinnita parool",
+    "firstName": "Eesnimi",
+    "lastName": "Perekonnanimi",
+    "phone": "Telefoninumber",
+    "register": "Registreerimine",
+    "login": "Sisenemine",
+    "noAccount": "Pole kontot?",
+    "haveAccount": "Juba konto?",
+    "loginSuccess": "Edukalt sisse logitud",
+    "registerSuccess": "Registreerimine õnnestus",
+    "error": "Kasutajanimi või parool vale"
+  },
+  "admin": {
+    "dashboard": "Admin Juhtpaneel",
+    "bookings": "Broneeringud",
+    "services": "Teenused",
+    "staff": "Töötajad",
+    "addService": "Lisa teenus",
+    "addStaff": "Lisa töötaja",
+    "editService": "Muuda teenust",
+    "deleteService": "Kustuta teenus",
+    "editStaff": "Muuda töötajat",
+    "deleteStaff": "Kustuta töötaja",
+    "name": "Nimi",
+    "delete": "Kustuta",
+    "edit": "Muuda",
+    "cancel": "Tühista",
+    "save": "Salvesta"
+  },
+  "common": {
+    "loading": "Laadib...",
+    "error": "Tekkis viga",
+    "success": "Õnnestus",
+    "back": "Tagasi",
+    "close": "Sulge",
+    "submit": "Saada",
+    "save": "Salvesta"
+  }
+}

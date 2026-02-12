@@ -1,0 +1,79 @@
+{
+  "header": {
+    "title": "Hair Salon",
+    "home": "Home",
+    "booking": "Booking",
+    "myBookings": "My Bookings",
+    "admin": "Admin",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "landing": {
+    "welcome": "Welcome to our hair salon booking system",
+    "description": "Book your appointment easily and quickly",
+    "bookNow": "Book Now",
+    "services": "Our Services"
+  },
+  "booking": {
+    "selectService": "Select Service",
+    "selectStaff": "Select Specialist",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "confirm": "Confirm Booking",
+    "guestBooking": "Guest Booking",
+    "loginToBook": "Please login to book an appointment",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "duration": "Duration",
+    "price": "Price",
+    "minutes": "minutes",
+    "eur": "€",
+    "bookingSuccess": "Booking confirmed successfully!",
+    "bookingError": "Error during booking. Please try again.",
+    "selectValidTime": "Please select a valid time"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone Number",
+    "register": "Register",
+    "login": "Login",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginSuccess": "Logged in successfully",
+    "registerSuccess": "Registration successful",
+    "error": "Invalid email or password"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "bookings": "Bookings",
+    "services": "Services",
+    "staff": "Staff",
+    "addService": "Add Service",
+    "addStaff": "Add Staff",
+    "editService": "Edit Service",
+    "deleteService": "Delete Service",
+    "editStaff": "Edit Staff",
+    "deleteStaff": "Delete Staff",
+    "name": "Name",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "back": "Back",
+    "close": "Close",
+    "submit": "Submit",
+    "save": "Save"
+  }
+}
