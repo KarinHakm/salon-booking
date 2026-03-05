@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookings>
+    <booking>
+        <id>1</id>
+        <class_id>1</class_id>
+        <teacher_id>1</teacher_id>
+        <date>2026-03-10</date>
+        <start_time>09:00</start_time>
+        <end_time>10:00</end_time>
+    </booking>
+    <booking>
+        <id>2</id>
+        <class_id>2</class_id>
+        <teacher_id>2</teacher_id>
+        <date>2026-03-11</date>
+        <start_time>11:00</start_time>
+        <end_time>12:30</end_time>
+    </booking>
+</bookings>

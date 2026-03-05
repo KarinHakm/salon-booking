@@ -1,0 +1,7 @@
+[
+  { "class": "Room A", "uses": 120 },
+  { "class": "Room B", "uses": 95 },
+  { "class": "Room C", "uses": 80 },
+  { "class": "Room D", "uses": 60 },
+  { "class": "Room E", "uses": 50 }
+]
