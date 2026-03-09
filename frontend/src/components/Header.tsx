@@ -4,14 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
 
 export const Header: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { isLoggedIn, user } = useAuth();
-
-  const toggleLanguage = () => {
-    const newLang = i18n.language === 'et' ? 'en' : 'et';
-    i18n.changeLanguage(newLang);
-    localStorage.setItem('language', newLang);
-  };
 
   return (
     <header className="bg-blue-600 text-white shadow-lg">
@@ -33,12 +27,6 @@ export const Header: React.FC = () => {
               {t('header.login')}
             </Link>
           )}
-          <button
-            onClick={toggleLanguage}
-            className="px-3 py-2 bg-blue-700 rounded hover:bg-blue-800"
-          >
-            {i18n.language === 'et' ? 'EN' : 'ET'}
-          </button>
         </div>
       </nav>
     </header>
