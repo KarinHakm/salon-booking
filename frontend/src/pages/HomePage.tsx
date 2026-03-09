@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export const HomePage: React.FC = () => {
@@ -9,9 +10,9 @@ export const HomePage: React.FC = () => {
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">{t('landing.welcome')}</h2>
         <p className="text-lg text-gray-600 mb-8">{t('landing.description')}</p>
-        <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700">
+        <Link to="/booking" className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 inline-block">
           {t('landing.bookNow')}
-        </button>
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">

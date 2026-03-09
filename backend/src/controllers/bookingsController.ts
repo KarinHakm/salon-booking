@@ -165,7 +165,10 @@ export const createBooking = async (req: Request, res: Response) => {
     );
 
     res.status(201).json(result.rows[0]);
-  } catch (error) {
+  } catch (error: any) {
+    if (error?.code === '23505') {
+      return res.status(409).json({ error: 'This time slot is already booked' });
+    }
     console.error('Error creating booking:', error);
     res.status(500).json({ error: 'Failed to create booking' });
   }
