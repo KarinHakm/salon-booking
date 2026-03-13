@@ -84,7 +84,9 @@ export const getAvailability = async (req: Request, res: Response) => {
       [staffId, date]
     );
 
-    const bookedTimes = appointmentsResult.rows.map((row: any) => row.appointment_time);
+    const bookedTimes = appointmentsResult.rows.map((row: any) =>
+      String(row.appointment_time).substring(0, 5)
+    );
 
     // Generate available time slots
     const startHour = new Date(`2000-01-01 ${staff.work_start_time}`).getHours();
