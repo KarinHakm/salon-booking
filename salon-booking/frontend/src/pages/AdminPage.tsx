@@ -41,7 +41,7 @@ export const AdminPage: React.FC = () => {
   };
 
   const filteredBookings = dateFilter
-    ? bookings.filter((b) => b.appointment_date === dateFilter)
+    ? bookings.filter((b) => b.appointment_date.slice(0, 10) === dateFilter)
     : bookings;
 
   const serviceName = (b: Booking) =>
@@ -100,8 +100,8 @@ export const AdminPage: React.FC = () => {
                   <td className="p-3">{b.customer_name}</td>
                   <td className="p-3">{b.first_name} {b.last_name}</td>
                   <td className="p-3">{serviceName(b)}</td>
-                  <td className="p-3">{b.appointment_date}</td>
-                  <td className="p-3">{b.appointment_time}</td>
+                  <td className="p-3">{b.appointment_date.slice(0, 10)}</td>
+                  <td className="p-3">{String(b.appointment_time).substring(0, 5)}</td>
                   <td className="p-3">
                     <span
                       className={`px-2 py-1 rounded text-sm ${
